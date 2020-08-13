@@ -2,4 +2,6 @@
 param(
 $SecGroup
 )
+#import AD
+Import-Module ActiveDirectory
 dsquery group -name “$SecGroup” | dsget group -members > C:\Groupmemberlist.txt
