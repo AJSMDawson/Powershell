@@ -1,0 +1,5 @@
+#Add a Security group as parameter
+param(
+$SecGroup
+)
+dsquery group -name “$SecGroup” | dsget group -members > C:\Groupmemberlist.txt
