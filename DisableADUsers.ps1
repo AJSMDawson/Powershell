@@ -1,7 +1,7 @@
 #Disable, Move, and remove groups from users in a CSV
 #CSV should have UserName first, then the usernames needed. 
 
-Import-Module Active Directory
+Import-Module ActiveDirectory
 $list = "PATH TO CSV"
 $DisabledOU = "DISABLED OU HERE"
 
