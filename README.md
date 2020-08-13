@@ -1,2 +1,2 @@
 # Powershell
-Useful Powershell Scripts
+Useful Powershell Scripts for AD Management and Automation
